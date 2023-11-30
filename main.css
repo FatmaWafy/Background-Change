@@ -1,0 +1,64 @@
+/* box-shadow:  box-shadow: 0px 0px 15px 8px rgb(255, 255, 255, 0.1);
+
+   .btn {
+  border: 0;
+  outline: 0;
+  padding: 10px 50px;
+  background-color: #fff;
+  font-size: 22px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 8px;
+  letter-spacing: 1.3px;
+  color: #6fd649;
+  box-shadow: -8px -8px 15px rgb(255, 255, 255, 0.1),
+    5px 5px 15px rgb(0, 0, 0, 0.2);
+  border: 2px solid #6fd649;
+}
+    */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+.container {
+  width: 100%;
+  height: 100vh;
+  background: #f3fbff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.img-box {
+  width: 60%;
+  margin: auto;
+  overflow: hidden;
+  line-height: 0;
+  background-image: url(./images/background.png);
+  position: relative;
+}
+.img-wrap {
+  width: 20px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+}
+span {
+  width: 1px;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 20px;
+  cursor: ew-resize;
+  background: #fff;
+}
+.arrow {
+  width: 40px;
+  position: absolute;
+  top: 50%;
+  margin-left: -20px;
+  margin-top: -20px;
+}
